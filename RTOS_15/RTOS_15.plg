@@ -1,0 +1,121 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\EXPLORE\workspace\Coding\Free_Rtos\ArmLpc1768_FreeRtos\RTOS_15\RTOS_15.uvproj
+Project File Date:  04/23/2015
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling startup_LPC17xx.s...
+compiling heap_1.c...
+compiling list.c...
+compiling main.c...
+main.c(53): error:  #10: "#" not expected here
+main.c:   i#define LED_My_LPT    0x02u
+main.c:    ^
+main.c(53): error:  #77-D: this declaration has no storage class or type specifier
+main.c:   i#define LED_My_LPT    0x02u
+main.c:   ^
+main.c(53): error:  #65: expected a ";"
+main.c:   i#define LED_My_LPT    0x02u
+main.c:    ^
+main.c(104): warning:  #12-D: parsing restarts here after previous syntax error
+main.c:         xSemaphoreGive(Sem_A);
+main.c:                              ^
+main.c(106): error:  #18: expected a ")"
+main.c:         LED_PORT = LED_My_LPT;    /* Led to indicate the execution of My_LPT*/
+main.c:         ^
+main.c(106): error:  #79: expected a type specifier
+main.c:         LED_PORT = LED_My_LPT;    /* Led to indicate the execution of My_LPT*/
+main.c:         ^
+main.c(106): error:  #101: "LPC_GPIO_TypeDef" has already been declared in the current scope
+main.c:         LED_PORT = LED_My_LPT;    /* Led to indicate the execution of My_LPT*/
+main.c:         ^
+main.c(106): error:  #141-D: unnamed prototyped parameters not allowed when body is present
+main.c:         LED_PORT = LED_My_LPT;    /* Led to indicate the execution of My_LPT*/
+main.c:         ^
+main.c(106): error:  #130: expected a "{"
+main.c:         LED_PORT = LED_My_LPT;    /* Led to indicate the execution of My_LPT*/
+main.c:         ^
+main.c(110): warning:  #12-D: parsing restarts here after previous syntax error
+main.c:   }
+main.c:   ^
+main.c(117): error:  #29: expected an expression
+main.c:         LED_PORT = LED_My_MPT;    /* Led to indicate the execution of My_MPT*/
+main.c:         ^
+main.c(117): error:  #32: expression must have arithmetic type
+main.c:         LED_PORT = LED_My_MPT;    /* Led to indicate the execution of My_MPT*/
+main.c:         ^
+main.c(125): error:  #29: expected an expression
+main.c:         LED_PORT = LED_My_MPT;    /* Led to indicate the execution of My_MPT*/
+main.c:         ^
+main.c(125): error:  #32: expression must have arithmetic type
+main.c:         LED_PORT = LED_My_MPT;    /* Led to indicate the execution of My_MPT*/
+main.c:         ^
+main.c(137): error:  #29: expected an expression
+main.c:         LED_PORT = LED_My_HPT;    /* Led to indicate the execution of My_HPT*/
+main.c:         ^
+main.c(137): error:  #32: expression must have arithmetic type
+main.c:         LED_PORT = LED_My_HPT;    /* Led to indicate the execution of My_HPT*/
+main.c:         ^
+main.c(143): error:  #29: expected an expression
+main.c:         LED_PORT = LED_My_HPT;    /* Led to indicate the execution of My_HPT*/
+main.c:         ^
+main.c(143): error:  #32: expression must have arithmetic type
+main.c:         LED_PORT = LED_My_HPT;    /* Led to indicate the execution of My_HPT*/
+main.c:         ^
+main.c(43): warning:  #177-D: function "My_LPT" was declared but never referenced
+main.c:   static void My_LPT(void* pvParameters);
+main.c:               ^
+main.c(113): warning:  #177-D: function "My_MPT" was declared but never referenced
+main.c:   static void My_MPT(void* pvParameters)
+main.c:               ^
+main.c(133): warning:  #177-D: function "My_HPT" was declared but never referenced
+main.c:   static void My_HPT(void* pvParameters)
+main.c:               ^
+main.c: main.c: 5 warnings, 16 errors
+compiling port.c...
+compiling queue.c...
+compiling system_LPC17xx.c...
+compiling tasks.c...
+compiling timers.c...
+compiling uart.c...
+Target not created
+Build target 'Target 1'
+assembling startup_LPC17xx.s...
+compiling heap_1.c...
+compiling list.c...
+compiling main.c...
+main.c(78): warning:  #111-D: statement is unreachable
+main.c:         return 0;
+main.c:         ^
+main.c: main.c: 1 warning, 0 errors
+compiling port.c...
+compiling queue.c...
+compiling system_LPC17xx.c...
+compiling tasks.c...
+compiling timers.c...
+compiling uart.c...
+linking...
+Program Size: Code=10308 RO-data=236 RW-data=88 ZI-data=4952  
+"RTOS_15.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling startup_LPC17xx.s...
+compiling heap_1.c...
+compiling list.c...
+compiling main.c...
+main.c(78): warning:  #111-D: statement is unreachable
+main.c:         return 0;
+main.c:         ^
+main.c: main.c: 1 warning, 0 errors
+compiling port.c...
+compiling queue.c...
+compiling system_LPC17xx.c...
+compiling tasks.c...
+compiling timers.c...
+compiling uart.c...
+linking...
+Program Size: Code=10308 RO-data=236 RW-data=88 ZI-data=4952  
+"RTOS_15.axf" - 0 Error(s), 1 Warning(s).

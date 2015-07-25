@@ -1,0 +1,66 @@
+[Signal 1]
+DispName=PORT2
+PlotType=1
+Color=255
+ValHex=0
+MinDec=0
+MinVal=0.
+MaxDec=0
+MaxVal=4294967295.
+Mask=32
+Offset=5
+[Signal 2]
+DispName=PORT2
+PlotType=1
+Color=32768
+ValHex=0
+MinDec=0
+MinVal=0.
+MaxDec=0
+MaxVal=4294967295.
+Mask=16
+Offset=4
+[Signal 3]
+DispName=PORT2
+PlotType=1
+Color=8388608
+ValHex=0
+MinDec=0
+MinVal=0.
+MaxDec=0
+MaxVal=4294967295.
+Mask=8
+Offset=3
+[Signal 4]
+DispName=PORT2
+PlotType=1
+Color=0
+ValHex=0
+MinDec=0
+MinVal=0.
+MaxDec=0
+MaxVal=4294967295.
+Mask=4
+Offset=2
+[Signal 5]
+DispName=PORT2
+PlotType=1
+Color=255
+ValHex=0
+MinDec=0
+MinVal=0.
+MaxDec=0
+MaxVal=4294967295.
+Mask=2
+Offset=1
+[Signal 6]
+DispName=PORT2
+PlotType=1
+Color=32768
+ValHex=0
+MinDec=0
+MinVal=0.
+MaxDec=0
+MaxVal=4294967295.
+Mask=1
+Offset=0

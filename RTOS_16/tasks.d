@@ -1,0 +1,15 @@
+tasks.o: tasks.c
+tasks.o: C:\Keil\ARM\RV31\INC\stdio.h
+tasks.o: C:\Keil\ARM\RV31\INC\stdlib.h
+tasks.o: C:\Keil\ARM\RV31\INC\string.h
+tasks.o: FreeRTOS.h
+tasks.o: C:\Keil\ARM\RV31\INC\stddef.h
+tasks.o: projdefs.h
+tasks.o: FreeRTOSConfig.h
+tasks.o: portable.h
+tasks.o: portmacro.h
+tasks.o: mpu_wrappers.h
+tasks.o: task.h
+tasks.o: list.h
+tasks.o: timers.h
+tasks.o: StackMacros.h

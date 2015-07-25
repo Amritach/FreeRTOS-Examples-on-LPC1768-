@@ -1,0 +1,11 @@
+heap_1.o: heap_1.c
+heap_1.o: C:\Keil\ARM\RV31\INC\stdlib.h
+heap_1.o: FreeRTOS.h
+heap_1.o: C:\Keil\ARM\RV31\INC\stddef.h
+heap_1.o: projdefs.h
+heap_1.o: FreeRTOSConfig.h
+heap_1.o: portable.h
+heap_1.o: portmacro.h
+heap_1.o: mpu_wrappers.h
+heap_1.o: task.h
+heap_1.o: list.h

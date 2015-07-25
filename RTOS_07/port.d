@@ -1,0 +1,10 @@
+port.o: port.c
+port.o: FreeRTOS.h
+port.o: C:\Keil\ARM\RV31\INC\stddef.h
+port.o: projdefs.h
+port.o: FreeRTOSConfig.h
+port.o: portable.h
+port.o: portmacro.h
+port.o: mpu_wrappers.h
+port.o: task.h
+port.o: list.h
