@@ -1,7 +1,7 @@
 /***************************************************************************************************
                                    ExploreEmbedded	
 ****************************************************************************************************
- * File:   uart.c (ARM controllers)
+ * File:   main.c		(FreeRTOS)
  * Version: 15.0
  * Author: ExploreEmbedded
  * Website: http://www.exploreembedded.com/wiki
